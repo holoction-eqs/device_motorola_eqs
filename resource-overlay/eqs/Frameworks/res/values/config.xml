@@ -297,4 +297,10 @@
     <string-array name="config_cameraHFRPrivAppList" translatable="false">
         <item>com.motorola.camera3</item>
     </string-array>
+
+    
+    <!-- Enables or disables haptic effect when the text insertion/selection handle is moved
+         manually by the user. Off by default, since the expected haptic feedback may not be
+         available on some devices. -->
+    <bool name="config_enableHapticTextHandle">true</bool>
 </resources>
