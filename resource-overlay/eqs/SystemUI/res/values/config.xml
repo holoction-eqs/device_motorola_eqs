@@ -6,4 +6,8 @@
 <resources>
     <!-- The radius of the enrollment progress bar, in DP. -->
     <integer name="config_udfpsEnrollProgressBar">65</integer>
+    <!-- Doze: This device does not support STATE_DOZE  -->
+    <bool name="doze_display_state_supported">false</bool>
+    <!-- Preferred max refresh rate at AOD & Ambient Display, if supported by the display. -->
+    <integer name="config_aodMaxRefreshRate">48</integer>
 </resources>
