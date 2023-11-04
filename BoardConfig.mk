@@ -102,5 +102,9 @@ TARGET_RECOVERY_UI_MARGIN_HEIGHT := 90
 # Security
 VENDOR_SECURITY_PATCH := 2024-04-01
 
+# Vibrator
+TARGET_QTI_VIBRATOR_EFFECT_LIB := libqtivibratoreffect.eqs
+TARGET_QTI_VIBRATOR_USE_EFFECT_STREAM := true
+
 # inherit from the proprietary version
 include vendor/motorola/eqs/BoardConfigVendor.mk
