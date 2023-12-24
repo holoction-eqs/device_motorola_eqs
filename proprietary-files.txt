@@ -390,12 +390,15 @@ system_ext/lib64/libstnfc_nci_jni.so
 # NFC - configs
 vendor/etc/libnfc-hal-st.conf
 vendor/etc/libnfc-hal-st54j.conf
+vendor/etc/libnfc-hal-st54uicc.conf
 vendor/etc/libnfc-nci-st.conf
 vendor/etc/libse-gto-hal.conf
 vendor/etc/st21nfc_conf_ds.txt
 vendor/etc/st21nfc_conf_ss.txt
 vendor/etc/st54j_conf_ds.txt
 vendor/etc/st54j_conf_ss.txt
+vendor/etc/st54uicc_conf_ds.txt
+vendor/etc/st54uicc_conf_ss.txt
 
 # NFC firmware
 vendor/firmware/st21nfc_fw.bin
