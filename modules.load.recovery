@@ -195,7 +195,6 @@ zram.ko
 hdcp.ko
 qseecom-mod.ko
 qcom-i2c-pmic.ko
-nfc_i2c.ko
 sg.ko
 spi-msm-geni.ko
 spmi-pmic-arb-debug.ko
