@@ -345,6 +345,12 @@ vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
 system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
 system_ext/framework/com.android.hotwordenrollment.common.util.jar|c764b636e0be426a66be09dd08ab9c1921327ef0
 
+# IMS Moto
+-system/framework/moto-ims-ext.jar
+system/etc/permissions/moto-ims-ext.xml
+-system/framework/moto-telephony.jar
+system/etc/permissions/moto-telephony.xml
+
 # MotCamera4 modified
 product/priv-app/MotCamera4/MotCamera4.apk;OVERRIDES=Aperture;PRESIGNED|7a89adcaf3ab9bb3f87e079fd56f20305f817c6b
 
