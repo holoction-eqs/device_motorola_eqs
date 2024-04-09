@@ -345,13 +345,15 @@ vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
 system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
 system_ext/framework/com.android.hotwordenrollment.common.util.jar|c764b636e0be426a66be09dd08ab9c1921327ef0
 
-# MotCamera3
+# MotCamera4 modified
+product/priv-app/MotCamera4/MotCamera4.apk;OVERRIDES=Aperture;PRESIGNED|7a89adcaf3ab9bb3f87e079fd56f20305f817c6b
+
+# MotCamera4 Deps
 product/app/MotCamera3AI/MotCamera3AI.apk;PRESIGNED
 product/etc/permissions/com.motorola.camera3.xml
 product/etc/permissions/deviceowner-configuration-com.motorola.camera3.xml
 product/etc/permissions/privapp-permissions-com.motorola.camera3.xml
 product/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera3.xml
-product/priv-app/MotCamera4/MotCamera4.apk;OVERRIDES=Aperture;PRESIGNED
 -system/app/MotoSignatureApp/MotoSignatureApp.apk;PRESIGNED
 system/etc/permissions/com.motorola.motosignature.xml
 system/etc/permissions/moto-core_services.xml
@@ -361,6 +363,61 @@ system/framework/moto-core_services.jar
 system/framework/moto-settings.jar
 system_ext/bin/motsettings
 -system_ext/priv-app/MotorolaSettingsProvider/MotorolaSettingsProvider.apk
+
+# MotCamera3 libs
+product/lib64/libAncHumanSegFigureFusion-jni.so
+product/lib64/libFNVfbEngineHAL_v8.so
+product/lib64/libNvBeautyEffect.so
+product/lib64/libNvEffectSdkCore.so
+product/lib64/libSuperSensorCPU_v11192021.so
+product/lib64/libSuperSensorProcessorCWrapper_v3.so
+product/lib64/libSuperSensorProcessor_v11192021.so
+product/lib64/libSuperSensor_v11192021.so
+product/lib64/libarcsoft_dualcam_refocus.so
+product/lib64/libarcsoft_frc_8450.so
+product/lib64/libarcsoft_hdr_detection.so
+product/lib64/libarcsoft_hdr_scbokeh_Adreno730.so
+product/lib64/libarcsoft_high_dynamic_range_v2_motion.so
+product/lib64/libarcsoft_multiframe_bokeh_image.so
+product/lib64/libarcsoft_scbokeh_Adreno730.so
+product/lib64/libas-stellar-track.so
+product/lib64/libas-super-slow-motion.so
+product/lib64/libbarhopper_v3.so
+product/lib64/libbg-postproc-jni.so
+product/lib64/libc++.so
+product/lib64/libc++_shared.so
+product/lib64/libcamerax_extension_jni.so
+product/lib64/libdoc-util.so
+product/lib64/libdynamic_depth.so
+product/lib64/libfn-beauty-vfb-v8-base.so
+product/lib64/libfoundation.so
+product/lib64/libgg-dynamic_depth.so
+product/lib64/libgg-tensorflow-lite.so
+product/lib64/libgif.so
+product/lib64/libjni_arcsoft_metadata_engine.so
+product/lib64/libjpeg.so
+product/lib64/liblenovo_panorama.so
+product/lib64/libmcf-base.so
+product/lib64/libmcf-jni.so
+product/lib64/libmcf-qc-fd-offline_local.so
+product/lib64/libmcf-stand-alone-sm.so
+product/lib64/libmeishe-nv-effects-thumbnails.so
+product/lib64/libmmcamera_faceproc2.so
+product/lib64/libmorpho_panorama_gp3.so
+product/lib64/libmorpho_panorama_gp3_core.so
+product/lib64/libmorpho_sensor_fusion.so
+product/lib64/libmot-cinemagraph-engine.so
+product/lib64/libmot-util.so
+product/lib64/libmot_trigger_v3.so
+product/lib64/libmot_trigger_v3_lib.so
+product/lib64/libmpbase.so
+product/lib64/libomp.so
+product/lib64/libpostproc-transfer-data.so
+product/lib64/libqc-snpe.so
+product/lib64/libsmart_ppt.so
+product/lib64/libtensorflowlite.so
+product/lib64/libtensorflowlite_gpu_delegate.so
+product/lib64/libtensorflowlite_jni.so
 
 # Moto Permissions
 product/etc/permissions/com.motorola.camera3.xml:vendor/etc/permissions/com.motorola.camera3.xml
