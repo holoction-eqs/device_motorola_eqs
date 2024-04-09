@@ -561,13 +561,15 @@ vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
 system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
 system_ext/framework/com.android.hotwordenrollment.common.util.jar
 
-# MotCamera3
+# MotCamera4 modified
+product/priv-app/MotCamera4/MotCamera4.apk;OVERRIDES=Aperture;PRESIGNED|744dd14661cd4a983c8c3fc98f1df98f4ab467fb
+
+# MotCamera4 Deps
 product/app/MotCamera3AI/MotCamera3AI.apk;PRESIGNED
 product/etc/permissions/com.motorola.camera3.xml
 product/etc/permissions/deviceowner-configuration-com.motorola.camera3.xml
 product/etc/permissions/privapp-permissions-com.motorola.camera3.xml
 product/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera3.xml
-product/priv-app/MotCamera4/MotCamera4.apk;PRESIGNED
 -system/app/MotoSignatureApp/MotoSignatureApp.apk;PRESIGNED
 system/etc/permissions/com.motorola.motosignature.xml
 system/etc/permissions/moto-core_services.xml
