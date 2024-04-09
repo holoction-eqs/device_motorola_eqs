@@ -1,5 +1,5 @@
 # Device mask
-ro.build.fingerprint=google/husky/husky:14/UQ1A.231205.015/11084887:user/release-keys
+ro.build.fingerprint=google/husky/husky:14/AP1A.240405.002/11480754:user/release-keys
 ro.product.brand=google
 ro.product.device=husky
 ro.product.manufacturer=Google
