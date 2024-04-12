@@ -39,6 +39,9 @@ PRODUCT_PACKAGES += \
     SettingsProviderResEqs \
     SystemUIResEqs
 
+# HentaiOS specific
+PRODUCT_PACKAGES += helluvaUpdater 
+
 # Audio
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/sku_cape/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_cape/audio_effects.xml \
