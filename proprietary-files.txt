@@ -562,7 +562,7 @@ system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
 system_ext/framework/com.android.hotwordenrollment.common.util.jar
 
 # MotCamera4 modified
-product/priv-app/MotCamera4/MotCamera4.apk;OVERRIDES=Aperture;PRESIGNED|744dd14661cd4a983c8c3fc98f1df98f4ab467fb
+product/priv-app/MotCamera4/MotCamera4.apk;OVERRIDES=Aperture;PRESIGNED|08b8fb1cd124144d52d0c52738c5acc536b8fb37
 
 # MotCamera4 Deps
 product/app/MotCamera3AI/MotCamera3AI.apk;PRESIGNED
